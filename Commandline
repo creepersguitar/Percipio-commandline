@@ -1,0 +1,8 @@
+dir = check contents of files
+cls = clear
+cd = change directory
+mkdir = make file
+ren (current_file_name) (new_file_name) - then type dir to check
+xcopy /E (file_name) (new_folder_name) - then either F for file or D for directory
+rd (name) = remove command
+fsutil file createnew lesson2.txt 0 = create new file with how many bites inside of it
