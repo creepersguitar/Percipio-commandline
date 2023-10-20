@@ -5,4 +5,11 @@ mkdir = make file
 ren (current_file_name) (new_file_name) - then type dir to check
 xcopy /E (file_name) (new_folder_name) - then either F for file or D for directory
 rd (name) = remove command
+echo > filename.filehandle = adds a file (Specify values for input with either cat or echo)
 fsutil file createnew lesson2.txt 0 = create new file with how many bites inside of it
+type filename.filehandle = check contents
+copy filename to filename = copys files
+comp filename filename = compares files (base compare)
+fc filename filename = indepth comparison (unless gets error)
+del filename = deletes file
+del *.* = deletes content of folder
