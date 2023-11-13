@@ -1,0 +1,8 @@
+set-location <*********> moves to different folder
+ls same as dir to check contents of folder
+New-Item -itemtype File test.txt = makes new file
+Set-Content *******.**** "*********" = makes content for created file
+get-content *******.**** = gets the content of file and outputs it
+rename-item <old_name> -newname <new_name> = renames files
+copy-item <current_name> <new_name> = copies files and gives new names
+move-item <current_name> -Destination <*folder name*>
