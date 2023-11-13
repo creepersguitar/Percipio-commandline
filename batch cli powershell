@@ -1,0 +1,23 @@
+create file - save as <file_name>.bat - make sure that on save as type box is set to all files (*.*)
+The contents of the file,
+REM *******
+@echo off
+echo **********
+fsutil file createnew ********.txt 0
+pause
+(* are used for filenames and input bits of code) (lines 3-7 are used for the batch file)
+
+load apps with cli
+---------------------
+right click on app
+go to properties
+copy file path and paste in cli
+
+powershell
+comes with help system
+pipeline - batch files (runs files sequentially but output could become new input)
+aliases = points to or runs commands such as cls
+operates on objs over text formatting outputs
+objs are inputs and outputs
+cmdlets built on common runtime env
+commands are native
