@@ -1,0 +1,23 @@
+ctrl alt t = opens terminal
+Theres relative and absolute paths
+usually in user path
+ls = same as dir
+
+pwd = current directory you are in
+cd <name> = navigate to folder
+mkdir <name> = makes new folder
+touch <name> = makes new file
+clear = clears commands and makes new window
+editor <name> = opens default editor for file
+rm <name> = deletes file
+cd .. = moves out 1 folder
+rm -r <name> = removes folder
+cd ~ goes to home directory
+cat <name> = reads file
+tail <name> = outputs few lines at bottom of file
+cat <name> | grep development = where development occurs
+ps = current ports?
+ps -d = shows all processes
+env = shows enviornment settings
+du -sh . = size of current directory
+id = shows who is logged into the machine
